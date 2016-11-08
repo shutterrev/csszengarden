@@ -1,2 +1,2 @@
-# csszengarden
-csszengarden project for eventual submission
+# CSSZenGarden
+This is eventually going to be my submission for csszengarden (http://www.csszengarden.com/). 

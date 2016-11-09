@@ -14,9 +14,9 @@
 }
 
 .page-wrapper:nth-child(1) {
-	-webkit-columns: 300px 4;
-    -moz-columns: 300px 4;
-    columns: 300px 4;
+	-webkit-columns: 300px 5;
+    -moz-columns: 300px 5;
+    columns: 300px 5;
 }
 
 .intro H1 {
@@ -25,46 +25,57 @@
 
 h2, h3 {
     text-align: center;
-    padding: 5px 0px 5px 0px;
+    padding: 20px 0px 5px 0px;
 	font-size: 150%;
 	letter-spacing: 1.5px;
 }
 
 #zen-summary p {
     border: 1px solid white;
+    -webkit-column-break-inside:avoid;
+}
+
+#zen-preamble:nth-child(1) {
+    -webkit-column-break-inside:avoid;
 }
 
 #zen-preamble p {
     border: 1px solid white;
+    -webkit-column-break-inside:avoid;
 }
 
 #zen-explanation p {
     border: 1px solid white;
+    -webkit-column-break-inside:avoid;
 }
 
 #zen-participation p {
     border: 1px solid white;
+    -webkit-column-break-inside:avoid;
 }
 
 #zen-benefits p {
     border: 1px solid white;
+    -webkit-column-break-inside:avoid;
 }
 
 #zen-requirements p {
     border: 1px solid white;
+    -webkit-column-break-inside:avoid;
 }
 
 #design-selection {
     text-align: center;
+    -webkit-column-break-inside:avoid;
 }
 
 body {
-	padding: 10px 15px 10px 15px
+	padding: 35px 35px 35px 35px
 }
 
 p {
 	padding: 10px 10px 10px 10px;
-    margin-top: 5px;
+    Margin-bottom: 5px;
 }
 
 #design-selection ul {

@@ -9,11 +9,11 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-decoration: none;
-	background-color: #107895;
-	color: white;
+	background-color: #4B7D74;
+	color: black;
 }
 
-.page-wrapper:nth-child(1) {
+.page-wrapper {
 	-webkit-columns: 300px 5;
     -moz-columns: 300px 5;
     columns: 300px 5;
@@ -21,6 +21,7 @@
 
 .intro H1 {
 	font-size: 300%;
+    color: white;
 }
 
 h2, h3 {
@@ -30,37 +31,45 @@ h2, h3 {
 	letter-spacing: 1.5px;
 }
 
+abbr, a {
+    background-color: inherit;
+    font-size: inherit;
+}
+
+
 #zen-summary p {
-    border: 1px solid white;
+    background-color: #539770;
+    border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
 
-#zen-preamble:nth-child(1) {
+#zen-preamble p:nth-child(n+1) {
+    background-color: #8DC2BC;
+    border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
 
-#zen-preamble p {
-    border: 1px solid white;
+#zen-explanation p:nth-child(n+1) {
+    background-color: #EDD6B4;
+    border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
 
-#zen-explanation p {
-    border: 1px solid white;
+#zen-participation p:nth-child(n+1) {
+    background-color: #FEFAD3;
+    border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
 
-#zen-participation p {
-    border: 1px solid white;
+#zen-benefits p:nth-child(n+1) {
+    background-color: #E2AE63;
+    border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
 
-#zen-benefits p {
-    border: 1px solid white;
-    -webkit-column-break-inside:avoid;
-}
-
-#zen-requirements p {
-    border: 1px solid white;
+#zen-requirements p:nth-child(n+1) {
+    background-color: #B67F5F;
+    border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
 
@@ -82,7 +91,6 @@ p {
     list-style:none;
 	padding: 10px 10px 10px 10px;
     margin-top: 5px;
-    border: 1px solid white;
 }
 
 #design-archives {
@@ -93,7 +101,6 @@ p {
     list-style:none;
 	padding: 10px 10px 10px 10px;
     margin-top: 5px;
-    border: 1px solid white;
 }
 
 #zen-resources {
@@ -104,15 +111,14 @@ p {
     list-style:none;
 	padding: 10px 10px 10px 10px;
     margin-top: 5px;
-    border: 1px solid white;
 }
 
 a:link {
 }
 
 a:hover {
-	color: #0B374D;
-	text-shadow: 1px 1px #107895;
+	color: #8DC2BC;
+	text-shadow: 1px 1px black;
 }
 
 footer {

@@ -13,28 +13,49 @@
 	color: white;
 }
 
-#css-zen-garden {
+.page-wrapper:nth-child(1) {
+	-webkit-columns: 300px 4;
+    -moz-columns: 300px 4;
+    columns: 300px 4;
 }
 
-.page-wrapper:nth-child(1) {
-	-webkit-columns: 300px 3;
-    -moz-columns: 300px 3;
-    columns: 300px 3;
-}
 .intro H1 {
 	font-size: 300%;
 }
 
-.intro, h1, h2 {
+h2, h3 {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+	font-size: 150%;
+	letter-spacing: 1.5px;
 }
 
-#zen-summary p:nth-child(2) {
-	border: 1px solid white;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: fit-content;
+#zen-summary p {
+    border: 1px solid white;
+}
+
+#zen-preamble p {
+    border: 1px solid white;
+}
+
+#zen-explanation p {
+    border: 1px solid white;
+}
+
+#zen-participation p {
+    border: 1px solid white;
+}
+
+#zen-benefits p {
+    border: 1px solid white;
+}
+
+#zen-requirements p {
+    border: 1px solid white;
+}
+
+#design-selection {
+    text-align: center;
 }
 
 body {
@@ -42,7 +63,37 @@ body {
 }
 
 p {
-	padding-bottom: 10px;
+	padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+}
+
+#design-selection ul {
+    list-style:none;
+	padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+
+#design-archives {
+    text-align: center;
+}
+
+#design-archives ul {
+    list-style:none;
+	padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+
+#zen-resources {
+    text-align: center;
+}
+
+#zen-resources ul {
+    list-style:none;
+	padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+    border: 1px solid white;
 }
 
 a:link {
@@ -50,15 +101,14 @@ a:link {
 
 a:hover {
 	color: #0B374D;
-	text-shadow: none;
-}
-
-h2, h3 {
-	padding-top: 10px;
-	font-size: 150%;
-	letter-spacing: 1.5px;
+	text-shadow: 1px 1px #107895;
 }
 
 footer {
-	display: inline;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+footer a {
+    margin-right: 10px;
 }

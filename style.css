@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
-
+html, body {
+    background-color: floralwhite;
+}
+.page-wrapper  {
+    margin-right: 30px;
+    margin-left: 30px;
+    Padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
 * {
 	font-size: 18px;
 	font-family: 'Rokkitt', serif;
@@ -9,7 +19,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-decoration: none;
-	background-color: #4B7D74;
+	background-color: antiquewhite;
 	color: black;
 }
 
@@ -17,9 +27,13 @@ body {
 	padding: 35px 35px 35px 35px
 }
 
+.main p a {
+    font-weight: bold;
+}
+
 p {
 	padding: 10px 10px 10px 10px;
-    Margin-bottom: 5px;
+    Margin-bottom: 10px;
 }
 
 .page-wrapper {
@@ -29,8 +43,18 @@ p {
 }
 
 .intro H1 {
-	font-size: 300%;
-    color: white;
+	font-size: 250%;
+    color: gr;
+    text-align: center;
+}
+
+.intro H2 {
+    color: #E2AE63;
+}
+
+.intro h2 abbr {
+    color: #E2AE63;
+    
 }
 
 h2, h3 {
@@ -45,9 +69,8 @@ abbr, a {
     font-size: inherit;
 }
 
-
 #zen-summary p {
-    background-color: #539770;
+    background-color: #E2AE63;
     border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
@@ -58,28 +81,48 @@ abbr, a {
     -webkit-column-break-inside:avoid;
 }
 
+.preamble h3 {
+    color: #8DC2BC; 
+}
+
 #zen-explanation p:nth-child(n+1) {
-    background-color: #EDD6B4;
+    background-color: #539770;
     border-radius: 10px;
     -webkit-column-break-inside:avoid;
+}
+
+.explanation h3 {
+    color: #539770;
 }
 
 #zen-participation p:nth-child(n+1) {
-    background-color: #FEFAD3;
+    background-color: #d8c94b;
     border-radius: 10px;
     -webkit-column-break-inside:avoid;
 }
 
+.participation h3 {
+    color: #d8c94b;  
+}
+
 #zen-benefits p:nth-child(n+1) {
-    background-color: #E2AE63;
+    background-color: tan;
     border-radius: 10px;
     -webkit-column-break-inside:avoid;
+}
+
+.benefits h3 {
+    color: tan; 
 }
 
 #zen-requirements p:nth-child(n+1) {
     background-color: #B67F5F;
     border-radius: 10px;
     -webkit-column-break-inside:avoid;
+}
+
+.requirements h3 {
+    color: #B67F5F;
 }
 
 #design-selection {
@@ -91,6 +134,12 @@ abbr, a {
     list-style:none;
 	padding: 10px 10px 10px 10px;
     margin-top: 5px;
+    border-radius: 10px;
+    border: 1px dashed black;
+}
+
+.design-selection li a:hover {
+    text-shadow: .5px .5px black;
 }
 
 #design-archives {
@@ -101,6 +150,8 @@ abbr, a {
     list-style:none;
 	padding: 10px 10px 10px 10px;
     margin-top: 5px;
+    border-radius: 10px;
+    border: 1px dashed black;
 }
 
 #zen-resources {
@@ -111,20 +162,29 @@ abbr, a {
     list-style:none;
 	padding: 10px 10px 10px 10px;
     margin-top: 5px;
+    border-radius: 10px;
+    border: 1px dashed black;
 }
 
 a:hover {
-	color: black !important;
-	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-shadow: .5px .5px black;
 }
 
 footer {
     text-align: center;
     padding: 5px 0px 5px 0px;
+    border-radius: 10px;
+    border: 1px dashed black;
 }
 
 footer a {
     margin-right: 10px;
-    color: white;
+    color: black;
     font-size: 125%;
+}
+
+footer a:hover {
+    font-size: 125%;
+    text-shadow: .5px .5px black;
 }
